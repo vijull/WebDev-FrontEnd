@@ -1,0 +1,32 @@
+div{
+    height: 100px;
+    width: 100px;
+    /* border-color:rgb(162, 44, 44) ;
+    border-style: dashed;
+    border-width: 2px; */
+    border: 2px solid sienna;
+    background-color: darkorchid;
+}
+.image{
+    width: 90vw;
+    height: 50vh;
+    border: 2px solid black;
+    background-color: crimson;
+    background-image: url("https://images.unsplash.com/photo-1655389156625-4d32fc08667d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8M3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60");
+    background-repeat: no-repeat;
+                      /* if not wanting to repeat image  */
+    /* background-size: cover ;  */
+                        /* covers all given area given */
+    /* background-size: contain; */
+                        /* make it to original size of image rest area will be the same as given to background color  */
+    background-size: 250px 350px;
+                          /* first width second height ,customize image size  */
+    background-position: right ;
+                           /* top/bottom/left/right  */
+
+}
+/* body{
+    width: 500px;
+    height: 500px;
+                  /* if this is given then u can use widht and height in % */
+/* }  */

@@ -1,0 +1,49 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: crimson;
+}
+div:hover{
+    animation-name: kuchbhi ;
+    animation-duration: 3000ms;
+           /* time span  */
+    animation-delay: 2s;
+                 /* delay time  */
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count:2;
+                       /* loop */
+    /* animation-direction:alternate-reverse; */
+                    /* direction  */
+    animation-timing-function: ease-out;
+    /* animation-fill-mode: forwards; */
+                 /* when animation ends then it ends at its final stage(fill mode - forward) */
+    animation-fill-mode: backwards;
+                 /* delay also doesnt work , ends at where it started               */
+    /* background-color: darkorchid;
+    height: 800px; */
+}
+@keyframes kuchbhi {
+    from{
+       height: 100px;
+       background-color: gold;
+    }
+    to{
+        height: 700px;
+        background-color: cornflowerblue;
+    }
+}
+@keyframes blah {
+    0%
+    {
+
+    }   
+    10%{
+
+    }
+    30%{
+
+    }
+    100%{
+
+    }
+}

@@ -1,0 +1,34 @@
+#parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+#child{
+    height: 50px;
+    width: 50px;
+    border-width: 3px;
+    border-top: 10px solid red;
+    border-left: 10px solid rgb(73, 99, 187);
+    border-bottom: 10px solid rgb(73, 99, 187);
+    border-right: 10px solid rgb(73, 99, 187);
+    background-color: rgb(202, 234, 171);
+    border-radius: 50%;
+
+    animation-name: rotate;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes rotate 
+{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}

@@ -1,0 +1,15 @@
+/* 
+h1{
+    transform: translate(200px);
+} */
+h1:hover{
+    /* transform: translateX(200px);
+    transform: translateY(200px); */
+                    /* ab hover par bhi aage nhi jayega bcz it chnages from original postion */
+    /* transform: translate(200px,200px); */
+    /* transform: rotateX(180deg);
+    transform: rotateY(180deg); */
+    transform: rotate(-180deg);
+    transition-duration: 3s;
+  }
+            

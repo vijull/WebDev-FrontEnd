@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.parent{
+    height: 80vh;
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+                  /* by default grid direction row  */
+    grid-template-columns: 200px 300px 1fr; 
+                   /* coloumn distance  */
+    grid-template-rows: 200px 300px 200px;
+                  /* row space  */
+     /* grid-auto-rows: 20px; */
+              /* gives rest of left rows spacing  */
+    /* grid-auto-flow: column;  */
+              /* changes by default direction and now left items comes in column           */
+    grid-auto-columns: 90px;
+    /* grid-gap: 20px; */
+                /*not good practise, puts gaps in btw grids  */
+    gap: 30px;
+                /* gives gaps in grid in both row and column              */
+   
+}
+.child{
+    background-color: rgb(121, 217, 47);
+    border: 2px solid rgb(18, 47, 71);
+}

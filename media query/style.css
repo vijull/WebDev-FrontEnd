@@ -1,0 +1,51 @@
+div{
+    height: 200px;
+    width: 200px;
+    background-color: fuchsia;
+  
+}
+/* @media screen and (width: 700px) {
+    /* encountering media and width ,print par nhi chala isliye screen par */
+    /* div{
+        background-color: rgb(100, 212, 75);
+    }
+    
+}  */
+
+/* @media screen and (max-width: 767px){
+    div{
+        background-color: rgb(183, 74, 74)
+    }
+    
+} */
+/* @media screen and (max-width: 576px){
+    div{
+        background-color: rgb(74, 116, 183)
+    } */
+    /* niche buz if we encounter it last then only it will work ,upper nhi chlega.when using max width bada no. upper,when using min width bada no. niche */
+/* } */
+/* @media screen and (min-width: 576px){
+    div{
+        background-color: rgb(136, 183, 74)
+    }
+    
+}
+@media screen and (min-width: 767px){
+    div{
+        background-color: rgb(220, 190, 23)
+    }
+    
+}
+
+@media screen and (max-width: 576px){
+    div{
+        background-color: rgb(183, 74, 74)
+    }*/
+    
+@media screen and (orientation: portrait) and (max-width: 600px){
+    /* height > width color change . "," is for OR  work on and also when both condidtions satisfy*/
+    div{
+        background-color: rgb(145, 74, 183)
+    }
+    
+} 

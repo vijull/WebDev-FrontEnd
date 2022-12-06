@@ -1,0 +1,44 @@
+div{
+    height: 100px;
+    width: 100px; 
+}
+section{
+    height: 90vh;
+    border: 2px solid royalblue;
+    display: flex;
+    /* works as an inline block */
+   /* flex-direction: column;  */
+    flex-direction: row; 
+   /* flex-direction: row-reverse; */
+   /* makes row reverse */
+   /* justify-content: space-between; */
+   /* khul gya gobi de ful vangu  */
+    justify-content: space-evenly; 
+   /* evenly distributes */
+   /* justify-content: end; */
+   /* make it start from end but not reverse */
+   /* justify-content: space-around; */
+   /* treats like a even circular virtually with sides + make one and in between one  */
+   /* flex-wrap:wrap; */
+   /* when changed view port content moves to next line rather than shrinking */
+   /* align-items: center; */
+   /* align-items: stretch; */
+   /* agar height width na do div ko toh stretch sa vo elements apne aap sari jagha le lenhge (dont use) */
+   /* align-items: baseline; */
+   /* works on top (uppe le jayta hai) */
+   /* align-items: flex-end; */
+   /* at bottom  */
+
+
+}
+div:nth-of-type(1){
+ flex-grow:2;
+ /* bacha sara space le liya  jisko diya ho*/
+ flex-shrink: 2;
+
+}
+div:nth-of-type(2){
+    flex-grow: 1;
+    /* jisko zayda uski ratio comparitively zayda */
+    flex-shrink: 1;
+}

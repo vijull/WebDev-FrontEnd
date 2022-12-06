@@ -1,0 +1,26 @@
+p{
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight:100;
+    line-height: 2em;
+    letter-spacing: 5px;
+}
+li{
+    list-style-type: '\2745';
+    border: 2px solid rgb(125, 196, 92);
+    list-style-position: inside;
+    /* list-style-position: mai border mai aa jayga emoji bhi/points; */
+}
+div{
+    height: 300px;
+    width: 300px;
+    background-color: darkorange;
+    
+}
+div:hover{
+    cursor:crosshair;
+    /* opacity: 0.5; */
+    /* opacity to make it opaque */
+    filter:grayscale(10%);
+    /* greyscale to make black and white image */
+}

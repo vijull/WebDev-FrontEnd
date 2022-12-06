@@ -1,0 +1,65 @@
+/* h1{ color:rgb(18, 8, 8) ;
+    background-color: rgb(183, 69, 46);
+    border: 7px dotted rgb(229, 203, 186);
+    font-size: 50px;
+    text-transform:uppercase;
+    text-decoration: line-through;
+} */
+/* #vijul{
+    color:rgb(18, 8, 8) ;
+    background-color: rgb(183, 69, 46);
+    border: 7px dotted rgb(229, 203, 186);
+    font-size: 50px;
+    text-transform:uppercase;
+    text-decoration: line-through;
+}
+.master{
+    color:rgb(54, 100, 112) ;
+    background-color: rgb(116, 187, 108);
+    border: 7px dotted rgb(26, 24, 24);
+    font-size: 50px;
+    text-transform:uppercase;
+    text-decoration: line-through;
+} */
+/* *{
+    border: 2px solid navy;
+    background-color: beige;
+} */
+/* body{ 
+
+} */
+  /* input[type="text"]{ 
+    background-color: rgb(51, 182, 175); 
+
+ }  */
+/* a[href="https://google.com"]{
+    background-color: yellow
+    ;
+} */
+/* a[href^="https:"]{
+    background-color: rgb(105, 235, 196)
+    ;
+    font-size: 20px;
+}
+a[href $=".in"]{
+    font-size: 50px
+    ;
+}
+a[href*="//"]{
+    background-color: rgb(193, 42, 170)
+    ;
+}
+
+ */
+ div a{
+    background-color: rgb(132, 217, 131);
+ }
+/* div strong{
+    font-size: 50px;
+} */
+/* div p strong{
+    font-size: 50px;
+} */
+p > strong{
+    background-color: rgb(215, 123, 123);
+}
